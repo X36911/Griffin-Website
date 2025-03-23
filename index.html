@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griffin</title>
+    <link rel="icon" type="image/jpg" href="Griffin-favicon.jpg">
+</head>
+<body>
+
+
+    <!-- Video banner 400 px height -->
+    <div id="tm-video-container" align="Right">
+    <img src="Griffin-background.png" alt="Griffin Background">
+</div>
+    <div class="tm-container">
+  <style>
+        /* Variables */
+        :root {
+            --griffin-gold: #dbb10b;
+            --background-black: #000000;
+            --text-light: #ffffff;
+            --link-light: #dfcba9;
+        }
+
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--background-black);
+            color: var(--text-light);
+            line-height: 1.5;
+        }
+
+        /* Header Styles with Background Image */
+        .header {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--griffin-gold);
+    text-align: center;
+    background-image: url('Images/Griffin-background.png'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+}
+
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: var(--griffin-gold);
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--text-light);
+            margin: 1.5rem 0 0.75rem;
+            border-bottom: 1px solid var(--griffin-gold);
+            padding-bottom: 0.25rem;
+        }
+
+        p {
+            margin-bottom: 0.75rem;
+            font-size: 1rem;
+        }
+
+        ul {
+            margin: 0.5rem 0 0.75rem 1.5rem;
+            list-style-type: disc;
+        }
+
+        li {
+            margin-bottom: 0.25rem;
+            font-size: 1rem;
+        }
+
+        a {
+            color: var(--link-light);
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: var(--griffin-gold);
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 0.5rem 1rem;
+            border-radius: 3px;
+            text-transform: uppercase;
+            font-weight: normal;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0.25rem 0;
+            background: var(--griffin-gold);
+            color: var(--background-black);
+        }
+
+        .btn:hover {
+            background: #c79e0a;
+            color: var(--background-black);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--background-black);
+            padding: 1rem;
+            text-align: center;
+            border-top: 1px solid var(--griffin-gold);
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: var(--link-light);
+            margin: 0 0.5rem;
+            text-decoration: underline;
+        }
+
+        .footer a:hover {
+            color: var(--griffin-gold);
+        }
+    </style>
+</head>
+<body>
+
+    <body>
+
+        <main>
+            <h1>Griffin Cybersecurity Suite</h1>
+            <ul>
+                <li><p>A software suite of advanced penetration testing tools developed for professional security analysts.</p></li>
+            </ul>
+    
+            <h2 align="center">Getting Started</h2>
+            <ul>
+                <li><p>Griffin is available for download under the open-source MIT License. Follow the installation instructions to begin using the suite.</p></li>
+                <p align="center"><a href="https://github.com" class="btn" target="_blank"><i class="fab fa-github"></i>Download from GitHub</a></p>
+            </ul>
+    
+            <h2 align="center">Features</h2>
+            <ul>
+                <li><strong>Cross-Platform Analysis:</strong> Identify vulnerabilities across multiple environments and architectures.</li>
+                <li><strong>Real-Time Evolution:</strong> Continuous updates with exclusive admin features and community-driven improvements.</li>
+                <li><strong>Professional Grade:</strong> Military-grade security analysis tools with precision instrumentation.</li>
+            </ul>
+    
+            <h2 align="center">Documentation</h2>
+            <ul>
+                <li><p>The following documentation is available to help you get started with Griffin:</p></li>
+                <li><a href="#">Installation Guide</a></li>
+                <li><a href="#">Quick Start Tutorial</a></li>
+                <li><a href="#">Configuration Handbook</a></li>
+                <li><p>Additional resources and updates can be found in the <a href="https://github.com" target="_blank">Griffin GitHub Repository</a>.</p></li>
+            </ul>
+    
+            <h2 align="center">Join the Community</h2>
+            <ul>
+                <li><p>Griffin is an open-source project. We welcome contributions, bug reports, and feature requests from the community.</p></li>
+                <p align="center"><a href="https://github.com" class="btn" target="_blank"><i class="fab fa-github"></i> Contribute to Griffin</a></p>
+                <li><p align="center">Visit the <a href="https://github.com" target="_blank">Griffin GitHub page</a> for more information or to report issues.</p></li>
+            </ul>
+        </main>
+    
+
+    <footer class="footer">
+        <p>© 2025 Griffin Security. Open Source MIT License.</p>
+        <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Use</a></p>
+    </footer>
+</body>
+</html>
