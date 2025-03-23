@@ -6,12 +6,12 @@
 }
 
 :root {
-  /* Main colors from the Ghidra website */
-  --ghidra-red: #db342f;
-  --ghidra-gold: #dfcba9;
+  /* Main colors from the Griffin website */
+  --griffin-gold: #dbb10b;
+  --griffin-light-gold: #dfcba9;
   --background-dark: #131313;
   --text-color: #ffffff;
-  --link-hover: #e6594f;
+  --link-hover: #e6b84f;
 }
 
 body {
@@ -116,13 +116,13 @@ body {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-.btn-ghidra {
+.btn-griffin {
   color: var(--text-color);
-  background-color: var(--ghidra-red);
-  border-color: var(--ghidra-red);
+  background-color: var(--griffin-gold);
+  border-color: var(--griffin-gold);
 }
 
-.btn-ghidra:hover {
+.btn-griffin:hover {
   background-color: var(--link-hover);
   border-color: var(--link-hover);
 }
@@ -159,7 +159,7 @@ body {
 }
 
 .features h2 {
-  color: var(--ghidra-red);
+  color: var(--griffin-gold);
   margin-bottom: 1rem;
   font-size: 1.75rem;
 }
@@ -204,11 +204,11 @@ a {
 }
 
 a:hover {
-  color: var(--ghidra-gold);
+  color: var(--griffin-light-gold);
 }
 
 .text-warning {
-  color: var(--ghidra-gold);
+  color: var(--griffin-light-gold);
 }
 
 .text-light {
